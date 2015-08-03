@@ -3,8 +3,8 @@
    You can adapt this file completely to your liking, but it should at least
    contain the root `toctree` directive.
 
-Welcome to KPI PSS11's Directory!
-=====================================
+ยินดีต้อนรับสู่ทำเนียบรุ่น ปศส 11 แห่งสถาบันพระปกเกล้า
+==============================================
 
 Contents:
 
