@@ -3,8 +3,12 @@
 นพรัตน์ ทวี
 ======================
 
-.. warning:: images/3051.jpg
 .. index:: นพรัตน์ ทวี
+
+.. image:: /images/3051.jpg
+   :scale: 15 %
+   :alt: นพรัตน์ ทวี
+   :align: center
 
 **ชื่อเล่น**
 	นพ
