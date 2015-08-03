@@ -4,7 +4,7 @@
 ===================
 
 .. image:: /images/3094.jpg
-   :scale: 5 %
+   :scale: 15 %
    :alt: วณิธยา ดุสิตนานนท์
    :align: center
 
