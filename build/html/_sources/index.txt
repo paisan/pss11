@@ -14,8 +14,27 @@
    profiles/3138
    profiles/3051
 
+.. graph::
 
+  node.hdr { color: red; }
+  node.src { fill: lightgreen; }
+  node.stage { fill: lightblue; }
 
+  (Libraries: [Library 1]{ shape: diamond;},
+              [Library 2]{ shape: diamond;},
+              [Library 3]{ shape: diamond;})
+
+  [Header 1]{class: hdr;},
+  [Header 2]{class: hdr;},
+  [Header N]{class: hdr;}-> [Preprocessor]{shape:circle; class:stage;} -> [Intermediate 2],
+                                                                          [Intermediate 1]->[Compiler]
+  [Source 1]{class: src;}, [Source 2]{class: src;}-> [Preprocessor]
+
+  [ Compiler ]{shape:circle; class:stage;} -> [ Object 2], [ Object 1] -> [ Linker ]
+
+  [Library 1], [Library 2], [Library 3] -> [Linker]{shape:circle; class:stage;}
+  [Linker] -> [Binary2]
+  
 Indices and tables
 ==================
 
